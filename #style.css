@@ -1,0 +1,20 @@
+/*This is external css*/
+ul{
+    background-color: lime;
+    padding: 20px;
+    Border: 3px blue;
+    width:200px; 
+    height:20px;
+}
+.done{
+    padding: 40px; 
+}
+    
+p{
+    color:hotpink !important;
+}
+#profielePicture{
+border: dotted 350px rebeccapurple;
+  border-radius: 50px red;
+    margin: 500px;
+}
