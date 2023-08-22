@@ -1,0 +1,78 @@
+/*Google Font Con Link */
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@200;300;400;500;600;700&d');
+.container{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+}
+.container{
+    max-width: 950px;
+    background: yellowgreen;
+    width: 100%;
+}
+.main-card .cards{
+    display: flex;
+}
+.main-card .cards .card{
+    background: #fff;
+}
+.cards .card .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cards .card .content .upperimg{
+    height: 130px;
+    width: 100px;
+    margin-bottom: 14px; 
+}
+.card .content .upperimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100%;   
+}
+.card .content .details .name{
+font-size: 20px;
+font-weight: 500;
+}
+.card .content .details .job{
+font-size: 20px;
+color:#ff676d;
+}
+.card .content .media-icons{
+    display: flex;
+    margin-top: 10px;
+}
+.card .content .media-icons a{
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    background: #ff676d;
+    margin: 0 4px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 33px;
+    font-size: 14px;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
+.content .media-icons a:hover{
+border-color: #ff676d;
+color: #ff676d;
+background: #fff;
+}
+
+ 
+

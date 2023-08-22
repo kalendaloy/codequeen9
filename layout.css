@@ -1,0 +1,39 @@
+.container{
+    background-color: rgb(72, 149, 216);
+    height:800px;
+    width:600px;
+    margin:auto;
+}
+.card{
+    height:600px;
+    width:400px;
+    background-color:yellow;
+    margin: 100px;
+    border-radius: 10px;
+}
+.upper{
+    background-color: black;
+    height: 300px;
+}
+.goat{
+    background-color: brown;
+    height: 300px;
+    padding: 10px;
+    
+}
+.upper img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: red 12px solid;
+}
+.details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
