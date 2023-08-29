@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.mother{
+    height:500px;
+    width: 1000px;
+    background-color: chocolate;
+}
+.blue{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    float:left;
+}
+.white{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(168, 168, 214);
+    float:right;
+}
+.content{
+    padding:100px;
+    color:aliceblue;
+}
+.content h4{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+form{
+    padding: 20px;
+}
+input{
+    padding: 7px;
+    border:solid rgb(228, 224, 224) 1px;
+    border-radius: 1px;
+    box-shadow: 1px 1px 6px 1px blue;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border:solid blue;
+}
+twitter icon{
+    padding: 30px;
+}
+button sign up{
+    padding: 50px;
+
+}
+
