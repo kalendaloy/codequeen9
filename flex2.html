@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/CSS/styles.css";>
+    <style>
+        body {
+
+margin: 0;
+
+padding: 0;
+
+}
+
+.item {
+
+font-size: 150px;
+
+color: rgb(0, 0, 0);
+
+width:150px;
+
+height: 150px;
+
+}
+
+.container {
+
+height: 800px;
+
+width: 500;
+
+background-color: rgb(173, 157, 157);
+
+display: flex;
+
+flex-direction: row;
+
+justify-content:flex-end;
+
+flex-wrap:wrap;
+
+align-content:center;
+
+align-items: flex-end;
+
+}
+
+
+
+.item:nth-of-type(3) {
+
+flex-grow:1;
+
+}
+
+.item1 {
+
+  background-color: blue;
+
+}
+
+.item2 {
+
+  background-color: rgb(0, 255, 0);
+
+}
+
+.item3 {
+
+background-color: rgb(255, 0, 234);
+
+}
+
+.item4 {
+
+background-color: rgb(255, 1, 1);
+
+}
+.container {
+  height: 800px;
+  width: 500;
+  background-color: rgb(173, 157, 157);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item item1">1</div>
+
+        <div class="item item2">2</div>
+
+        <div class="item item3">3</div>
+
+        <div class="item item4">4</div>
+
+    </div>
+    
+</body>
+</html>
