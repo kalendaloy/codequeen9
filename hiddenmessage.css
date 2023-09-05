@@ -1,22 +1,22 @@
 h1{
-    color: blue;
+    color: rgb(80, 80, 190);
 }
 p{
-    color: purple;
+    color: rgb(173, 88, 173);
 }
 h2{
-    color: chartreuse;
+    color: rgb(193, 207, 178);
 }
 h3{
-    color: darkgreen;
+    color: rgb(80, 153, 80);
 
 }
 h4{
-    color: darkorange;
+    color: rgb(163, 118, 62);
 }
 h5{
-    color: red;
+    color: rgb(216, 57, 57);
 }
 h6{
-    color: yellow;
+    color: rgb(198, 211, 19);
 }
