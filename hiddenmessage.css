@@ -1,22 +1,30 @@
 h1{
-    color: rgb(80, 80, 190);
+    color: lightpink;
+    text-decoration: underline;
+    
 }
 p{
-    color: rgb(173, 88, 173);
+    color: pink;
+    text-transform: uppercase;
 }
 h2{
-    color: rgb(193, 207, 178);
+    color: royalblue;
+    letter-spacing: 20px;
 }
 h3{
-    color: rgb(80, 153, 80);
+    color: olivedrab;
+    text-align: center;
 
 }
 h4{
-    color: rgb(163, 118, 62);
+    color: goldenrod;
+    direction: ltr;
 }
 h5{
-    color: rgb(216, 57, 57);
+    color: yellowgreen;
+    text-indent: 50px;
 }
 h6{
-    color: rgb(198, 211, 19);
+    color: gray;
+    line-height: 5;
 }
