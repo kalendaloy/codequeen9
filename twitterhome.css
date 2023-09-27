@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.svg{
+    height: 100%;
+}
+
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content{
+flex-grow: 1;
+flex-shrink: 0;
+display: flex;
+flex-direction:row;
+
+}
+
+.content-info{
+    width: 50%;
+    background-color: #71c9f8; 
+    position: relative; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container{
+    z-index: 10;
+
+}
+
+.description-element{
+    line-height: 30px;
+    font-size: 19px;
+    font-weight: 700;
+    color:white;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.desription-element span {
+
+    height: 24px;
+   
+}
+
+.description-svg{
+    height: 28px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.description-text{
+    display: inline-block;
+}
+
+.background-bird {
+ 
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 160px;
+}
+/*
+ top: -30vh;
+    right: -50vh;
+    height: 160vh;
+    max-width: none;
+    position: absolute;
+*/
+
+.content-signup{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1, h3 {
+    color: #0f1419;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 5.5vw;
+}
+
+h3 {
+    font-size: 2.3rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24rem;
+    height: 3.3rem;
+    border-radius: 10vw;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-signup{
+    background: #1da1f2;
+}
+.footer{
+    background-color: white; 
+    text-align: center; 
+    padding: 15px 15px; 
+    flex-grow: 0;
+}
+
+.footer-item{
+    color: rgb(3, 3, 24);
+    margin-right: 16px;
+    font-size: 13px;
+}
+    
